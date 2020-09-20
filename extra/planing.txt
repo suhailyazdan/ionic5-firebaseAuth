@@ -1,0 +1,43 @@
+Idea - This app gives an opportunity to anyone to design his favourate page. On home page most liked and viewed favepages will come. On home page search functionality will also be there according to search criteria favepages will come.
+
+Main functionality is that anybody can share his favepage and time to time can change its look-feel and its content.
+
+homePage (all swatches of top favepages)
+[Home page will be a kind of search page where anyone can search anyone's pave page]
+    - loginPage
+    - signUpPage
+mainPage
+    - dashboard (all information of account holder's favepages)
+        - no. of likes
+        - no. of shares
+        - no. of views
+        - new comments
+        - my likes
+        - my shares
+        - my comments
+        - my Security settings
+        - who viewed myFavePage
+        - myProfile
+        - myAccount
+        - button for myFavePage edit
+        - button for myFavePage view
+    - profilePage
+
+Modulewise structure
+- Auth (Module)
+  -  SignUp (Module)
+  -  SignIn (Module)
+  -  PrivacyPolicy (Module)
+  -  authGuard
+  -  authService
+- Home (Module)
+  -  Header (Module)
+  -  search (Module)
+  -  topFavePages (Module)
+  -  Footer (Module)
+- Main (Module)
+  -  DashBoard (Module)
+     -  newFavePage (Module)
+     -  listFavePages (Module)
+     -  editFavePage (Module)
+  -  account&Profile (Module)
